@@ -45,6 +45,6 @@ module AccountLocation
     end
     
     def account_subdomain
-      request.subdomains.first
+      request.subdomains.last
     end
 end
